@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Dealerships in Canada</title>
+    <style>
+        body {
+            font-family: trebuchet MS , sans-serif;
+            background-color: #e6e6e6;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            padding: 10px;
+            background-color: #f0f0f0;
+            text-align: center; 
+        }
+        .header img {
+            width: 150px; 
+            height: auto; 
+        }
+        .header a {
+            color: #535353;
+            text-decoration: none;
+            font-size: 12px; 
+            margin-top: 5px; 
+        }
+        .header a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            width: 100%;
+            height: 400px; 
+            background-image: url('https://static.euronews.com/articles/stories/08/78/41/32/1200x675_cmsv2_94ee4f3a-1d2b-551f-ae75-fb80ac87a2f6-8784132.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: absolute;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .image-container {
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .product-header {
+            display: flex;
+            align-items: flex-start; 
+            gap: 20px;
+        }
+        .product-image {
+            text-align: center; 
+        }
+        .product-image img {
+            width: 100%; 
+            height: 100%;
+            object-fit: cover;
+        }
+        .product-description {
+            flex: 1;
+        }
+        .product-description h2 {
+            color: #3f3f3f;
+        }
+        .product-description ul {
+            list-style-type: disc;
+            margin: 10px 0 0 20px;
+        }
+        .price-table {
+            margin-top: 20px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .price-table th, .price-table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        .price-table th {
+            background-color: #640000;
+            color: white;
+        }
+        .price-table td {
+            background-color: #f0f0f0;
+        }
+        a {
+            color: #797979;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .centered-section {
+            text-align: center; 
+            margin: 0 auto; 
+        }
+        img {
+            display: block; 
+            margin: 0 auto; 
+            width: 50%; 
+            height: auto; 
+        }
+        <!--footer-->
+
+footer { 
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; } 
+            
+            footer p { 
+                text-align: center; 
+                margin-top: 10px;
+            font-size: 12px;
+            color:#797979; }
+    </style>
+</head>
+<body>
+
+   
+    <div class="header">
+
+        <a href="https://www.tesla.com">
+        <img src="c:\Users\Brianna\OneDrive\Software Engineering Sem 1\Web Interface Design\Assignment 3\tesla.png" alt="Tesla Logo"></a>
+        <a href="#">Home Page</a>
+    </div>
+    
+    <div class="hero">
+        <h1>Experience Tesla</h1>
+    </div>
+
+    <div class="container">
+        <div class="product-header">
+            <div class="product-image">
+                <div class="image-container">
+                
+                <img src="c:\Users\Brianna\OneDrive\Software Engineering Sem 1\Web Interface Design\Assignment 3\tesla Model 3.avif" alt="Tesla Model 3">
+            </div>
+            <p><a href="#">View Larger Picture</a></p>
+            </div>
+            <div class="product-description">
+                <h2>About the Company</h2>
+                <p>
+                    Tesla, founded in 2003 by entrepreneur Elon Musk, has become a renowned brand in the automotive industry, known for its production of electric vehicles and renewable energy solutions.
+                    The company's success can be attributed to its innovative and futuristic approach, disruptive business strategies, and strong brand image. One of the key factors that contributed to Tesla's success is its focus on electric vehicles. 
+                    Tesla's use of innovative technology also played a significant role in its success. The company's vehicles are equipped with advanced features, such as autopilot and self-driving capabilities, which have attracted tech-savvy consumers. 
+                </p>
+                <ul>
+                    <li>Powerful Efficiency</li>
+                    <li>Performance All-Wheel Drive</li>
+                    <li>Basic Autopilot</li>
+                    <li>Easy Charging</li>
+                    <li>Expansive Storage</li>
+                </ul>
+            </div>
+        </div>
+
+        <table class="price-table">
+            <tr>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Model Y</td>
+                <td>From $31,490*</td>
+            </tr>
+            <tr>
+                <td>Model 3</td>
+                <td>From $29,990*</td>
+            </tr>
+            <tr>
+                <td>Model X</td>
+                <td>From $65,990*</td>
+            </tr>
+            <tr>
+                <td>CyberTruck</td>
+                <td>From $94.490*</td>
+            </tr>
+        </table>
+        
+        <div class="centered-section">
+            <h2>Explore Tesla Dealerships in Canada</h2>
+            <p>Tesla provides dealerships all over Canada. Click on one of the major cities (Toronto, Edmonton, or Winnipeg) to find a dealership near you.</p>
+
+            
+            <img src="c:\Users\Brianna\OneDrive\Software Engineering Sem 1\Web Interface Design\Assignment 3\canada.jpg" alt="Map" usemap="#teslamap">
+
+            <map name="teslamap">
+              <area shape="circle" coords="80,220,30" alt="Edmonton" href="https://www.tesla.com/en_CA/findus/location/store/edmonton17616">
+              <area shape="circle" coords="150,250,30" alt="Winnipeg" href="https://www.tesla.com/findus/location/service/407558">
+              <area shape="circle" coords="250,280,30" alt="Toronto" href="https://www.tesla.com/findus/location/store/toronto">
+            </map>
+        </div>
+
+    </div>
+      
+   <footer> 
+    <div class="container"> 
+        <p>&copy; Brianna Dionisio. Student ID: 301468985. All rights reserved.</p> 
+    </div> 
+</footer>
+
+</body>
+</html>
